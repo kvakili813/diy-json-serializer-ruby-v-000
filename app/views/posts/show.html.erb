@@ -1,7 +1,7 @@
-<div><%= @post.author.name %></div>
+<div class="authorName"><%= @post.author.name %></div>
 <a href="#" class="js-next" data-id="<%=@post.id%>">Next...</a>
 <h1><%= @post.title %></h1>
-<p><%= @post.description %></p>
+<p class="postBody"><%= @post.description %></p>
 
 <script type="text/javascript" charset="utf-8">
 $(function () {
