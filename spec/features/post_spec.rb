@@ -7,7 +7,6 @@ describe 'navigate' do
 
   it 'shows the title on the show page in a h1 tag' do
     visit post_path(@post)
-    binding.pry
     expect(page).to have_css("h1", text: "My Post")
   end
 
